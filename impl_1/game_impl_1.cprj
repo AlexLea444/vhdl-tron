@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2022.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/2022.1/ip/pmi/pmi_iCE40UP.vhd"
+-lib "work" -vhd "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/VGA_top.vhd" "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/pattern_gen.vhd" "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/vga.vhd" "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/bike_velocity.vhd" "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/trail_memory.vhd" "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/velocity_decoder.vhd" "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/NES.vhd"
+-path "C:/Users/Alexander Lea/Downloads/vhdl-tron"
+-vh2008
+-top top_vga
+-isTop
+-a "iCE40UP"

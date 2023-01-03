@@ -1,0 +1,114 @@
+----------------------------------------------------------------------
+Report for cell top_vga.TECH
+Register bits:  158 of 5280 (2.992%)
+I/O cells:      14
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         1          100.0
+                               CCU2        58          100.0
+                            FD1P3XZ       158          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         3          100.0
+                              IOL_B         2          100.0
+                               LUT4       380          100.0
+                                 OB        11          100.0
+                              PLL_B         1          100.0
+SUB MODULES
+                                NES         1
+                      bike_velocity         1
+                   bike_velocity_U1         1
+                        pattern_gen         1
+                       trail_memory         1
+                   velocity_decoder         1
+                velocity_decoder_U0         1
+                                vga         1
+                            vga_pll         1
+vga_pll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")         1
+                              TOTAL       625
+----------------------------------------------------------------------
+Report for cell bike_velocity.v1
+Instance Path : direction_P2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         7            4.4
+                               LUT4        11            2.9
+                              TOTAL        18
+----------------------------------------------------------------------
+Report for cell vga.v1
+Instance Path : vga_comms
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        12           20.7
+                            FD1P3XZ        23           14.6
+                               LUT4        49           12.9
+                              TOTAL        84
+----------------------------------------------------------------------
+Report for cell NES.v1
+Instance Path : NES_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        11           19.0
+                            FD1P3XZ        28           17.7
+                         HSOSC_CORE         1          100.0
+                              IOL_B         2          100.0
+                               LUT4        17            4.5
+                              TOTAL        59
+----------------------------------------------------------------------
+Report for cell pattern_gen.v1
+Instance Path : color
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        27           46.6
+                            FD1P3XZ        45           28.5
+                               LUT4       266           70.0
+                              TOTAL       338
+----------------------------------------------------------------------
+Report for cell vga_pll.v1
+Instance Path : pll
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+SUB MODULES
+vga_pll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")         1
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell vga_pll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000").v1
+Instance Path : pll.lscc_pll_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              PLL_B         1          100.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell velocity_decoder.v1
+Instance Path : velocity_P2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2         4            6.9
+                            FD1P3XZ        23           14.6
+                               LUT4         7            1.8
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell bike_velocity_U1.v1
+Instance Path : direction_P1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         7            4.4
+                               LUT4         5            1.3
+                              TOTAL        12
+----------------------------------------------------------------------
+Report for cell velocity_decoder_U0.v1
+Instance Path : velocity_P1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2         4            6.9
+                            FD1P3XZ        23           14.6
+                               LUT4         9            2.4
+                              TOTAL        36
+----------------------------------------------------------------------
+Report for cell trail_memory.v1
+Instance Path : RAM
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              EBR_B         1          100.0
+                            FD1P3XZ         2            1.3
+                              TOTAL         3

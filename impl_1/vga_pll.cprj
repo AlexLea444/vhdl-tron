@@ -1,0 +1,7 @@
+-ver "C:/lscc/radiant/2022.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/2022.1/ip/pmi/pmi_iCE40UP.vhd"
+-ver "C:/Users/Alexander Lea/Downloads/vhdl-tron/vga_pll/rtl/vga_pll.v"
+-path "C:/Users/Alexander Lea/Downloads/vhdl-tron/vga_pll" "C:/Users/Alexander Lea/Downloads/vhdl-tron"
+-vh2008
+-top vga_pll
+-a "iCE40UP"

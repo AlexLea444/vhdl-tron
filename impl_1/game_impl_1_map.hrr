@@ -1,0 +1,107 @@
+---------------------------------------------------
+Report for cell top_vga
+   Instance path: top_vga
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       2.00        100.0
+                                  LUT4	        541        100.0
+                               LUTGATE	        425        100.0
+                                LUTCCU	        116        100.0
+                                 IOREG	          2        100.0
+                                 IOBUF	         14        100.0
+                                PFUREG	        158        100.0
+                                   EBR	          1        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                                   NES	          1         7.2
+                         bike_velocity	          1         2.0
+                      bike_velocity_U1	          1         0.7
+                           pattern_gen	          1        54.9
+                          trail_memory	          1         0.0
+                      velocity_decoder	          1         2.8
+                   velocity_decoder_U0	          1         3.1
+                                   vga	          1        13.1
+                               vga_pll	          1         0.0
+---------------------------------------------------
+Report for cell bike_velocity
+   Instance path: top_vga/direction_P2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         11         2.0
+                               LUTGATE	         11         2.6
+                                PFUREG	          7         4.4
+---------------------------------------------------
+Report for cell vga
+   Instance path: top_vga/vga_comms
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         71        13.1
+                               LUTGATE	         47        11.1
+                                LUTCCU	         24        20.7
+                                PFUREG	         23        14.6
+---------------------------------------------------
+Report for cell NES
+   Instance path: top_vga/NES_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       2.00        100.0
+                                  LUT4	         39         7.2
+                               LUTGATE	         17         4.0
+                                LUTCCU	         22        19.0
+                                 IOREG	          2        100.0
+                                PFUREG	         28        17.7
+---------------------------------------------------
+Report for cell pattern_gen
+   Instance path: top_vga/color
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        297        54.9
+                               LUTGATE	        243        57.2
+                                LUTCCU	         54        46.6
+                                PFUREG	         45        28.5
+---------------------------------------------------
+Report for cell vga_pll
+   Instance path: top_vga/pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+vga_pll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")	          1         0.0
+---------------------------------------------------
+Report for cell vga_pll_ipgen_lscc_pll(DIVR="0",DIVF="66",DIVQ="5",FILTER_RANGE="1",PLLOUT_SELECT_PORTA="GENCLK",PLLOUT_SELECT_PORTB="GENCLK",FREQUENCY_PIN_REFERENCECLK="12.000000")
+   Instance path: top_vga/pll/lscc_pll_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+---------------------------------------------------
+Report for cell velocity_decoder
+   Instance path: top_vga/velocity_P2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         15         2.8
+                               LUTGATE	          7         1.6
+                                LUTCCU	          8         6.9
+                                PFUREG	         23        14.6
+---------------------------------------------------
+Report for cell bike_velocity_U1
+   Instance path: top_vga/direction_P1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          4         0.7
+                               LUTGATE	          4         0.9
+                                PFUREG	          7         4.4
+---------------------------------------------------
+Report for cell velocity_decoder_U0
+   Instance path: top_vga/velocity_P1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         17         3.1
+                               LUTGATE	          9         2.1
+                                LUTCCU	          8         6.9
+                                PFUREG	         23        14.6
+---------------------------------------------------
+Report for cell trail_memory
+   Instance path: top_vga/RAM
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	          2         1.3
+                                   EBR	          1        100.0

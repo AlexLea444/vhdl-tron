@@ -1,0 +1,12 @@
+#Start recording tcl command: 1/2/2023 17:42:59
+#Project Location: C:/Users/Alexander Lea/Downloads/vhdl-tron; Project name: game
+prj_run PAR -impl impl_1
+prj_remove_source "C:/Users/Alexander Lea/Downloads/vhdl-tron/source/impl_1/animate.vhd"
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_save 
+prj_close
+#Stop recording: 1/2/2023 20:23:49

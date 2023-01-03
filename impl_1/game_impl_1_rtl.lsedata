@@ -1,0 +1,25 @@
+<top name = "top_vga"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+    <clockitem name = "pll_out"  type = "net" />
+    <clockitem name = "clk_sig"  type = "net" />
+    <clockitem name = "game_clk_sig"  type = "net" />
+    <clockitem name = "ref_clk_in"  type = "port" />
+    <clockitem name = "NES_inst/NESclk"  type = "net" />
+    <clockitem name = "NES_inst/CLK"  type = "net" />
+    <clockitem name = "vga_comms/frame_clk"  type = "net" />
+    <clockitem name = "pll/lscc_pll_inst/outglobalb_o"  type = "net" />
+    <clockitem name = "pll/lscc_pll_inst/outcoreb_o"  type = "net" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 9
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+</top>
