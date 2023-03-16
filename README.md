@@ -9,4 +9,6 @@ The purpose of this project was to demonstrate an understanding of digital desig
 
 The code for this project demonstrates much of what VHDL has to offer. Given that it was developed in under 2 weeks, it is in no way optimized but was created to be fast and practical. A greater revision is needed to fix communication between RAM and display which creates an off-by-one error. The temporary fix in this version can be found under pattern_gen, in which collisions are only detected if the player is moving vertically or to the left.
 
+For more information, see: https://docs.google.com/document/d/1cBwp4sB5TVIMQ9YEvcNLu-84IcrpWrPOTf02_2RWAAw/edit?usp=sharing
+
 VHD can be found in source\impl_1\
